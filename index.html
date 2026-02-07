@@ -12,16 +12,25 @@
 <body>
 
 <!-- Navbar -->
-<header class="navbar">
+<header class="navbar" id="navbar">
+    <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
     <div class="nav-container">
-        <div class="logo">logo</div>
-        <nav>
+        <div class="nav-brand">
+            <img src="logos/8.png" alt="Maastricht Policy Hackathon" class="nav-logo-img">
+        </div>
+        <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" id="nav-toggle">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="nav-wrap">
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Other events</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#events">Events</a></li>
             </ul>
         </nav>
     </div>
@@ -39,43 +48,45 @@
                 Sign up
             </button>
         </div>
+        <p class="hero-tagline">A new hackathon focused on interdisciplinary, data-driven policymaking.</p>
     </div>
 </section>
 
+<main id="home">
 <!-- Partners -->
-<section class="partners">
+<section class="partners" id="partners">
     <p class="partners-title" >In collaboration with:</p>
 
     <div class="logo-slider">
         <div class="logo-track">
             <!-- First set -->
-            <img src="logos/maastricht-university.svg" alt="">
-            <img src="logos/meta.png" alt="">
-            <img src="logos/government.png" alt="">
-            <img src="logos/um.png" alt="">
-            <img src="logos/klm.jpg" alt="">
-            <img src="logos/ing.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
 
             <!-- Duplicate set for seamless loop -->
-            <img src="logos/maastricht-university.svg" alt="">
-            <img src="logos/meta.png" alt="">
-            <img src="logos/government.png" alt="">
-            <img src="logos/um.png" alt="">
-            <img src="logos/klm.jpg" alt="">
-            <img src="logos/ing.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
 
-            <img src="logos/maastricht-university.svg" alt="">
-            <img src="logos/meta.png" alt="">
-            <img src="logos/government.png" alt="">
-            <img src="logos/um.png" alt="">
-            <img src="logos/klm.jpg" alt="">
-            <img src="logos/ing.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
+            <img src="logos/placeholder.png" alt="">
         </div>
     </div>
-</section>
 
 
-<section class="about">
+
+<section class="about" id="about">
     <div class="about-container">
 
         <div class="about-text">
@@ -105,5 +116,327 @@
 </section>
 
 
+<div class="partners-details">
+    <div class="section-inner">
+        <h3 class="partners-details-title">Our partners</h3>
+        <div class="partners-details-list">
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 1</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 2</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 3</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 4</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 5</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+            <article class="partner-detail">
+                <div class="partner-detail-logo">
+                    <img src="logos/placeholder.png" alt="Partner">
+                </div>
+                <div class="partner-detail-text">
+                    <h4>Partner 6</h4>
+                    <p>Partner description placeholder. Details to be added.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <div class="section-inner">
+        <h3 class="section-title">What Our Participants Say</h3>
+        <p class="section-subtitle">Hear from past participants at other Policy Hackathons.</p>
+    </div>
+    <div class="testimonial-scroll-wrap">
+        <div class="testimonial-track">
+            <article class="testimonial-card">
+                <blockquote>
+                    Joining this hackathon was both fun and valuable. The best part was experimenting with ideas, meeting new people, and testing skills in a fast-paced setting. Working at the intersection of policy and data was truly inspiring.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Policy & Data Science</span>
+                </div>
+            </article>
+            <article class="testimonial-card">
+                <blockquote>
+                    Participating in the Maastricht Policy Hackathon was an exciting and rewarding experience. I used reasoning, creativity, and problem-solving throughout the competition. The multidisciplinary teams made it unique.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Research & Innovation</span>
+                </div>
+            </article>
+            <article class="testimonial-card">
+                <blockquote>
+                    I came from a law background and was unsure how I’d fit in. The organisers and my team made it easy. We combined legal reasoning with data analysis and ended up with a policy proposal we were really proud of.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Law & Governance</span>
+                </div>
+            </article>
+            <article class="testimonial-card">
+                <blockquote>
+                    The mentors from government and industry were incredibly helpful. They gave us real feedback on what works in practice, not just in theory. That mix of academic and practical perspectives was unique.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Public Policy</span>
+                </div>
+            </article>
+            <article class="testimonial-card">
+                <blockquote>
+                    As a data science student I finally got to apply my skills to something that matters for society. The challenges were tough but realistic, and working with people from other disciplines changed how I think about policy.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Data Science</span>
+                </div>
+            </article>
+            <article class="testimonial-card">
+                <blockquote>
+                    Best weekend of my master’s so far. Great venue, clear briefs, and enough time to go deep. Our team still meets sometimes to refine our idea. Would definitely recommend to anyone curious about policy and data.
+                </blockquote>
+                <div class="testimonial-author">
+                    <strong>Participant</strong>
+                    <span>Economics & Innovation</span>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Video / Success Story -->
+<section class="success-story">
+    <div class="section-inner">
+        <h3 class="section-title">Watch Our Success Story</h3>
+        <p class="section-subtitle">Hear directly from participants, partners, and organizers about their experience and the impact of the Maastricht Policy Hackathon.</p>
+        <div class="video-placeholder">
+            <div class="video-frame">
+                <span class="play-icon" aria-hidden="true">▶</span>
+                <p>Video coming soon</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+    <div class="stats-inner">
+        <div class="stat-item">
+            <span class="stat-number">X+</span>
+            <span class="stat-label">Sign-ups</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">X+</span>
+            <span class="stat-label">Selected Participants</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">X</span>
+            <span class="stat-label">Multidisciplinary Teams</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">X</span>
+            <span class="stat-label">Policy Challenges</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">2.5</span>
+            <span class="stat-label">Days of Hacking</span>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+    <div class="section-inner">
+        <h3 class="section-title">FAQ</h3>
+        <div class="faq-list">
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-1" id="faq-q1">
+                    <span>Who can participate?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq-answer" id="faq-1" role="region" aria-labelledby="faq-q1">
+                    <p>Students and young professionals from any discipline. We welcome backgrounds in policy, data science, law, economics, health, and more.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-2" id="faq-q2">
+                    <span>Do I need a team before registering?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq-answer" id="faq-2" role="region" aria-labelledby="faq-q2">
+                    <p>No. You can sign up individually and we will help form multidisciplinary teams at the start of the event.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-3" id="faq-q3">
+                    <span>When and where is it?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq-answer" id="faq-3" role="region" aria-labelledby="faq-q3">
+                    <p>The hackathon takes place over 2.5 days in Maastricht. Exact dates and venue will be shared after you sign up.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-4" id="faq-q4">
+                    <span>What should I bring?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-q4">
+                    <p>A laptop is essential. We’ll provide wifi, meals, and refreshments. Just bring your curiosity and readiness to collaborate.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-5" id="faq-q5">
+                    <span>Is there a participation fee?</span>
+                    <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-q5">
+                    <p>Participation is free. The event is made possible by our partners and sponsors. We may ask for a small deposit to secure your spot, which is refunded after attendance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team -->
+<section class="team-section" id="team">
+    <div class="section-inner">
+        <h3 class="section-title">Team</h3>
+        <p class="section-subtitle">The Maastricht Policy Hackathon is organized by a team of researchers and practitioners passionate about data-driven policy.</p>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="team-member-photo" aria-hidden="true"></div>
+                <h4 class="team-member-name">Team Member 1</h4>
+                <p class="team-member-desc">Short description placeholder. Role or focus area.</p>
+            </div>
+            <div class="team-member">
+                <div class="team-member-photo" aria-hidden="true"></div>
+                <h4 class="team-member-name">Team Member 2</h4>
+                <p class="team-member-desc">Short description placeholder. Role or focus area.</p>
+            </div>
+            <div class="team-member">
+                <div class="team-member-photo" aria-hidden="true"></div>
+                <h4 class="team-member-name">Team Member 3</h4>
+                <p class="team-member-desc">Short description placeholder. Role or focus area.</p>
+            </div>
+            <div class="team-member">
+                <div class="team-member-photo" aria-hidden="true"></div>
+                <h4 class="team-member-name">Team Member 4</h4>
+                <p class="team-member-desc">Short description placeholder. Role or focus area.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA -->
+<section class="cta-section" id="events">
+    <div class="section-inner">
+        <h3 class="section-title">Join the hackathon</h3>
+        <p class="cta-text">Ready to tackle real policy challenges with data and creativity? Join the Maastricht Policy Hackathon and work alongside a multidisciplinary team.</p>
+        <button class="cta-btn">
+            <img src="icons/signup.png" alt="" class="icon">
+            Sign up
+        </button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-supported">Supported by</p>
+        <div class="footer-logos">
+            <img src="logos/placeholder.png" alt="Partner">
+            <img src="logos/placeholder.png" alt="Partner">
+        </div>
+        <p class="footer-contact">Maastricht Policy Hackathon. Contact us at <a href="mailto:contact@maastrichtpolicyhackathon.nl">contact@maastrichtpolicyhackathon.nl</a></p>
+    </div>
+</footer>
+</main>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        var item = this.closest('.faq-item');
+        var isOpen = item.classList.contains('is-open');
+        document.querySelectorAll('.faq-item').forEach(function(i) { i.classList.remove('is-open'); });
+        document.querySelectorAll('.faq-question').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
+        if (!isOpen) {
+            item.classList.add('is-open');
+            this.setAttribute('aria-expanded', 'true');
+        }
+    });
+});
+
+(function() {
+    var navbar = document.getElementById('navbar');
+    var toggle = document.getElementById('nav-toggle');
+    var overlay = document.getElementById('nav-overlay');
+    if (!navbar || !toggle) return;
+    function closeMenu() {
+        navbar.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open menu');
+        document.body.style.overflow = '';
+    }
+    function openMenu() {
+        navbar.classList.add('is-open');
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', 'Close menu');
+        document.body.style.overflow = 'hidden';
+    }
+    toggle.addEventListener('click', function() {
+        if (navbar.classList.contains('is-open')) closeMenu();
+        else openMenu();
+    });
+    if (overlay) overlay.addEventListener('click', closeMenu);
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+        link.addEventListener('click', closeMenu);
+    });
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) closeMenu();
+    });
+})();
+</script>
 </body>
 </html>
