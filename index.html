@@ -15,7 +15,8 @@
 <header class="navbar" id="navbar">
     <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
     <div class="nav-container">
-        <div class="nav-brand">
+        <div class="nav-brand" style="display: flex; align-items: center; gap: 10px;">
+            <img src="logos/8.png" alt="Maastricht Policy Hackathon" class="nav-logo-img">
             <img src="logos/8.png" alt="Maastricht Policy Hackathon" class="nav-logo-img">
         </div>
         <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" id="nav-toggle">
@@ -383,13 +384,26 @@
 
 <!-- Footer -->
 <footer class="footer">
-    <div class="footer-inner">
-        <p class="footer-supported">Supported by</p>
-        <div class="footer-logos">
-            <img src="logos/placeholder.png" alt="Partner">
-            <img src="logos/placeholder.png" alt="Partner">
+    <div class="footer-inner" style="display: flex; ">
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </nav>
+        <div style="width: 100%;">
+            <p class="footer-supported">Made in collaboration with </p>
+            <div class="footer-logos">
+                <img src="logos/8.png" alt="Partner">
+            </div>
         </div>
-        <p class="footer-contact">Maastricht Policy Hackathon. Contact us at <a href="mailto:contact@maastrichtpolicyhackathon.nl">contact@maastrichtpolicyhackathon.nl</a></p>
+        <div style="width: 100%;">
+            <p class="footer-contact">Maastricht Policy Hackathon. Contact us at <a href="mailto:contact@maastrichtpolicyhackathon.nl">contact@maastrichtpolicyhackathon.nl</a></p>
+        </div>
     </div>
 </footer>
 </main>
