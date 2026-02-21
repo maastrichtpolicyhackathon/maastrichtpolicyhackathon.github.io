@@ -9,6 +9,7 @@
 body {
     background-color: #ffffff;
     color: #0a2540;
+    overflow-x: hidden;
 }
 
 /* Navbar */
