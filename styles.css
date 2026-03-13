@@ -367,6 +367,13 @@ body {
     text-align: center;
 }
 
+.section-title-light {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-align: center;
+}
 .section-subtitle {
     font-size: 18px;
     color: #555;
